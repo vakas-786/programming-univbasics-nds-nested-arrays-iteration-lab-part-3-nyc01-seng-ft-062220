@@ -5,5 +5,8 @@ def join_nested_strings(src)
   result=""
   ind = 0
   while ind < src.length do
-    if src[ind].is_a?String 
+    if src[ind].is_a?String
+      result << src[ind] + " "
+    end
+    ind+=1
 end
