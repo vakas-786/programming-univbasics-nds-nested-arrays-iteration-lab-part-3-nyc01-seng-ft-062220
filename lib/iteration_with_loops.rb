@@ -9,4 +9,5 @@ def join_nested_strings(src)
       result << src[ind] + " "
     end
     ind+=1
+  end
 end
